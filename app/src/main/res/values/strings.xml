@@ -20,6 +20,7 @@
     <string name="equals_sign">=</string>
     <string name="add_sign">+</string>
     <string name="multiply_sign">*</string>
+    <string name="hint_for_input_main">Enter a Number</string>
 
     <!-- -->
     <!-- -->
