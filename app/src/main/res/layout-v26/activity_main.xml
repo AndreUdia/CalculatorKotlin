@@ -15,8 +15,11 @@
             android:layout_marginStart="16dp"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginBottom="16dp"
-            app:layout_constraintBottom_toTopOf="@+id/guideline30" android:textDirection="rtl"
-            android:layout_marginEnd="16dp" app:layout_constraintEnd_toEndOf="parent" android:autofillHints=""
+            app:layout_constraintBottom_toTopOf="@+id/guideline30"
+            android:textDirection="rtl"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:autofillHints=""
             tools:ignore="LabelFor"/>
     <TextView
             android:layout_width="wrap_content"
@@ -24,13 +27,16 @@
             android:id="@+id/result"
             tools:text="___________________"
             android:inputType="none"
-            android:textSize="18sp" android:textColor="@color/design_default_color_primary"
+            android:textSize="18sp"
+            android:textColor="@color/design_default_color_primary"
             android:textDirection="rtl"
             app:layout_constraintEnd_toEndOf="@+id/input"
             app:layout_constraintBottom_toTopOf="@+id/input"
-            android:layout_marginStart="16dp" app:layout_constraintStart_toStartOf="@+id/centerline"
-            android:layout_marginBottom="16dp" app:layout_constraintHorizontal_bias="1.0"/>
-    <TextView
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="@+id/centerline"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintHorizontal_bias="1.0"/>
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/signal"
@@ -110,6 +116,7 @@
             android:layout_marginEnd="8dp"
             android:layout_marginTop="16dp"
             app:layout_constraintTop_toBottomOf="@+id/input"/>
+
     <Button
             android:text="@string/nine"
             android:layout_width="48sp"
@@ -166,6 +173,7 @@
             app:layout_constraintBaseline_toBaselineOf="@+id/equal"
             app:layout_constraintStart_toEndOf="@+id/equal"
             android:layout_marginStart="16dp"/>
+
     <androidx.constraintlayout.widget.Guideline
             android:orientation="vertical"
             android:layout_width="wrap_content"
@@ -178,4 +186,5 @@
             android:layout_height="wrap_content"
             android:id="@+id/guideline30"
             app:layout_constraintGuide_percent="0.3"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
