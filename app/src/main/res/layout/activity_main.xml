@@ -23,7 +23,6 @@
             tools:text="___________________"
             android:inputType="none"
             android:textSize="18sp" android:textColor="@color/design_default_color_primary"
-            android:text="agagagagagaagagagagagagagagagag"
             android:textDirection="rtl"
             app:layout_constraintEnd_toEndOf="@+id/input"
             app:layout_constraintBottom_toTopOf="@+id/input"
